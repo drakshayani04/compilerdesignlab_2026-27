@@ -78,7 +78,6 @@ class Function:
        # call generateTripleTAC() for you -- see main.py's write_compile()
         #for the required call order: parse -> program.generateTripleTAC()
         #-> program.compile().)
-        raise NotImplementedError("implement Function.compile()")
 
     def getMipsCode(self):
         """NEW this week. Returns None if compile() hasn't run yet."""
